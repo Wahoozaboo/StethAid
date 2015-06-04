@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849B5BF61B20A3AE009A0524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5BF51B20A3AE009A0524 /* main.m */; };
+		849B5BF91B20A3AE009A0524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5BF81B20A3AE009A0524 /* AppDelegate.m */; };
+		849B5BFC1B20A3AE009A0524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5BFB1B20A3AE009A0524 /* ViewController.m */; };
+		849B5BFF1B20A3AE009A0524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849B5BFD1B20A3AE009A0524 /* Main.storyboard */; };
+		849B5C011B20A3AE009A0524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C001B20A3AE009A0524 /* Images.xcassets */; };
+		849B5C041B20A3AE009A0524 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C021B20A3AE009A0524 /* LaunchScreen.xib */; };
+		849B5C101B20A3AE009A0524 /* StethaidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C0F1B20A3AE009A0524 /* StethaidTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849B5C0A1B20A3AE009A0524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849B5BE81B20A3AE009A0524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849B5BEF1B20A3AE009A0524;
+			remoteInfo = Stethaid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849B5BF01B20A3AE009A0524 /* Stethaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stethaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849B5BF41B20A3AE009A0524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849B5BF51B20A3AE009A0524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849B5BF71B20A3AE009A0524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849B5BF81B20A3AE009A0524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849B5BFA1B20A3AE009A0524 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849B5BFB1B20A3AE009A0524 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849B5BFE1B20A3AE009A0524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849B5C001B20A3AE009A0524 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		849B5C031B20A3AE009A0524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		849B5C091B20A3AE009A0524 /* StethaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StethaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849B5C0E1B20A3AE009A0524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849B5C0F1B20A3AE009A0524 /* StethaidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StethaidTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849B5BED1B20A3AE009A0524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B5C061B20A3AE009A0524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849B5BE71B20A3AD009A0524 = {
+			isa = PBXGroup;
+			children = (
+				849B5BF21B20A3AE009A0524 /* Stethaid */,
+				849B5C0C1B20A3AE009A0524 /* StethaidTests */,
+				849B5BF11B20A3AE009A0524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849B5BF11B20A3AE009A0524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849B5BF01B20A3AE009A0524 /* Stethaid.app */,
+				849B5C091B20A3AE009A0524 /* StethaidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849B5BF21B20A3AE009A0524 /* Stethaid */ = {
+			isa = PBXGroup;
+			children = (
+				849B5BF71B20A3AE009A0524 /* AppDelegate.h */,
+				849B5BF81B20A3AE009A0524 /* AppDelegate.m */,
+				849B5BFA1B20A3AE009A0524 /* ViewController.h */,
+				849B5BFB1B20A3AE009A0524 /* ViewController.m */,
+				849B5BFD1B20A3AE009A0524 /* Main.storyboard */,
+				849B5C001B20A3AE009A0524 /* Images.xcassets */,
+				849B5C021B20A3AE009A0524 /* LaunchScreen.xib */,
+				849B5BF31B20A3AE009A0524 /* Supporting Files */,
+			);
+			path = Stethaid;
+			sourceTree = "<group>";
+		};
+		849B5BF31B20A3AE009A0524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849B5BF41B20A3AE009A0524 /* Info.plist */,
+				849B5BF51B20A3AE009A0524 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849B5C0C1B20A3AE009A0524 /* StethaidTests */ = {
+			isa = PBXGroup;
+			children = (
+				849B5C0F1B20A3AE009A0524 /* StethaidTests.m */,
+				849B5C0D1B20A3AE009A0524 /* Supporting Files */,
+			);
+			path = StethaidTests;
+			sourceTree = "<group>";
+		};
+		849B5C0D1B20A3AE009A0524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849B5C0E1B20A3AE009A0524 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849B5BEF1B20A3AE009A0524 /* Stethaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849B5C131B20A3AE009A0524 /* Build configuration list for PBXNativeTarget "Stethaid" */;
+			buildPhases = (
+				849B5BEC1B20A3AE009A0524 /* Sources */,
+				849B5BED1B20A3AE009A0524 /* Frameworks */,
+				849B5BEE1B20A3AE009A0524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stethaid;
+			productName = Stethaid;
+			productReference = 849B5BF01B20A3AE009A0524 /* Stethaid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849B5C081B20A3AE009A0524 /* StethaidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849B5C161B20A3AE009A0524 /* Build configuration list for PBXNativeTarget "StethaidTests" */;
+			buildPhases = (
+				849B5C051B20A3AE009A0524 /* Sources */,
+				849B5C061B20A3AE009A0524 /* Frameworks */,
+				849B5C071B20A3AE009A0524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849B5C0B1B20A3AE009A0524 /* PBXTargetDependency */,
+			);
+			name = StethaidTests;
+			productName = StethaidTests;
+			productReference = 849B5C091B20A3AE009A0524 /* StethaidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849B5BE81B20A3AE009A0524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sheikh Zayed Institute";
+				TargetAttributes = {
+					849B5BEF1B20A3AE009A0524 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					849B5C081B20A3AE009A0524 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 849B5BEF1B20A3AE009A0524;
+					};
+				};
+			};
+			buildConfigurationList = 849B5BEB1B20A3AE009A0524 /* Build configuration list for PBXProject "Stethaid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849B5BE71B20A3AD009A0524;
+			productRefGroup = 849B5BF11B20A3AE009A0524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849B5BEF1B20A3AE009A0524 /* Stethaid */,
+				849B5C081B20A3AE009A0524 /* StethaidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849B5BEE1B20A3AE009A0524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B5BFF1B20A3AE009A0524 /* Main.storyboard in Resources */,
+				849B5C041B20A3AE009A0524 /* LaunchScreen.xib in Resources */,
+				849B5C011B20A3AE009A0524 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B5C071B20A3AE009A0524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849B5BEC1B20A3AE009A0524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B5BFC1B20A3AE009A0524 /* ViewController.m in Sources */,
+				849B5BF91B20A3AE009A0524 /* AppDelegate.m in Sources */,
+				849B5BF61B20A3AE009A0524 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B5C051B20A3AE009A0524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849B5C101B20A3AE009A0524 /* StethaidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849B5C0B1B20A3AE009A0524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849B5BEF1B20A3AE009A0524 /* Stethaid */;
+			targetProxy = 849B5C0A1B20A3AE009A0524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849B5BFD1B20A3AE009A0524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849B5BFE1B20A3AE009A0524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849B5C021B20A3AE009A0524 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849B5C031B20A3AE009A0524 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849B5C111B20A3AE009A0524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849B5C121B20A3AE009A0524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849B5C141B20A3AE009A0524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stethaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849B5C151B20A3AE009A0524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stethaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849B5C171B20A3AE009A0524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StethaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stethaid.app/Stethaid";
+			};
+			name = Debug;
+		};
+		849B5C181B20A3AE009A0524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StethaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stethaid.app/Stethaid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849B5BEB1B20A3AE009A0524 /* Build configuration list for PBXProject "Stethaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B5C111B20A3AE009A0524 /* Debug */,
+				849B5C121B20A3AE009A0524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849B5C131B20A3AE009A0524 /* Build configuration list for PBXNativeTarget "Stethaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B5C141B20A3AE009A0524 /* Debug */,
+				849B5C151B20A3AE009A0524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849B5C161B20A3AE009A0524 /* Build configuration list for PBXNativeTarget "StethaidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849B5C171B20A3AE009A0524 /* Debug */,
+				849B5C181B20A3AE009A0524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849B5BE81B20A3AE009A0524 /* Project object */;
+}
