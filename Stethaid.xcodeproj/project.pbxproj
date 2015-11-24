@@ -7,13 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8416ABAF1BF4FBB500FEC2B7 /* PatientDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416ABAE1BF4FBB500FEC2B7 /* PatientDirectoryViewController.m */; };
+		842115531BD96E5C004B5836 /* PatientInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842115521BD96E5C004B5836 /* PatientInfoViewController.m */; };
+		8421159E1BDCA38D004B5836 /* WelcomeChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421159D1BDCA38D004B5836 /* WelcomeChoiceViewController.m */; };
+		842115A11BDCA8D1004B5836 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842115A01BDCA8D1004B5836 /* TutorialViewController.m */; };
+		8462D6A81BED225000647952 /* PatientDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8462D6A51BED225000647952 /* PatientDirectory.m */; };
+		8462D6A91BED225000647952 /* PatientItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8462D6A71BED225000647952 /* PatientItem.m */; };
+		847C97E41B29CC9B00B65369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847C97E31B29CC9B00B65369 /* Foundation.framework */; };
 		849B5BF61B20A3AE009A0524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5BF51B20A3AE009A0524 /* main.m */; };
-		849B5BF91B20A3AE009A0524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5BF81B20A3AE009A0524 /* AppDelegate.m */; };
-		849B5BFC1B20A3AE009A0524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5BFB1B20A3AE009A0524 /* ViewController.m */; };
-		849B5BFF1B20A3AE009A0524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849B5BFD1B20A3AE009A0524 /* Main.storyboard */; };
 		849B5C011B20A3AE009A0524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C001B20A3AE009A0524 /* Images.xcassets */; };
-		849B5C041B20A3AE009A0524 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C021B20A3AE009A0524 /* LaunchScreen.xib */; };
 		849B5C101B20A3AE009A0524 /* StethaidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C0F1B20A3AE009A0524 /* StethaidTests.m */; };
+		849B5C1A1B20A452009A0524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C191B20A452009A0524 /* Main.storyboard */; };
+		849B5C1C1B20A463009A0524 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C1B1B20A463009A0524 /* LaunchScreen.xib */; };
+		849B5C291B20A4B5009A0524 /* heart_beat_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C1E1B20A4B5009A0524 /* heart_beat_logo.png */; };
+		849B5C2A1B20A4B5009A0524 /* heart_beat_logo76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C1F1B20A4B5009A0524 /* heart_beat_logo76x76.png */; };
+		849B5C2B1B20A4B5009A0524 /* heart_beat_logo120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C201B20A4B5009A0524 /* heart_beat_logo120x120.png */; };
+		849B5C2C1B20A4B5009A0524 /* heart_beat_logo152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C211B20A4B5009A0524 /* heart_beat_logo152x152.png */; };
+		849B5C2D1B20A4B5009A0524 /* heart_beat_logo180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C221B20A4B5009A0524 /* heart_beat_logo180x180.png */; };
+		849B5C2E1B20A4B5009A0524 /* PauseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C231B20A4B5009A0524 /* PauseIcon.png */; };
+		849B5C2F1B20A4B5009A0524 /* PlayIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C241B20A4B5009A0524 /* PlayIcon.png */; };
+		849B5C301B20A4B5009A0524 /* RecordIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C251B20A4B5009A0524 /* RecordIcon.png */; };
+		849B5C311B20A4B5009A0524 /* RecordRed256.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C261B20A4B5009A0524 /* RecordRed256.png */; };
+		849B5C321B20A4B5009A0524 /* Stethaid Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C271B20A4B5009A0524 /* Stethaid Logo.png */; };
+		849B5C331B20A4B5009A0524 /* StopRed256.png in Resources */ = {isa = PBXBuildFile; fileRef = 849B5C281B20A4B5009A0524 /* StopRed256.png */; };
+		849B5C3C1B20A6B0009A0524 /* FDWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C351B20A6B0009A0524 /* FDWaveformView.m */; };
+		849B5C3D1B20A6B0009A0524 /* HeartSoundItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C371B20A6B0009A0524 /* HeartSoundItem.m */; };
+		849B5C3E1B20A6B0009A0524 /* HeartSoundList.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C391B20A6B0009A0524 /* HeartSoundList.m */; };
+		849B5C3F1B20A6B0009A0524 /* HeartSoundListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C3B1B20A6B0009A0524 /* HeartSoundListViewController.m */; };
+		849B5C421B20A6CF009A0524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C411B20A6CF009A0524 /* AppDelegate.m */; };
+		849B5C451B20A770009A0524 /* IosAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C441B20A770009A0524 /* IosAudioController.m */; };
+		849B5C4A1B20A78A009A0524 /* PlaybackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C471B20A78A009A0524 /* PlaybackViewController.m */; };
+		849B5C4B1B20A78A009A0524 /* RecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B5C491B20A78A009A0524 /* RecordingViewController.m */; };
+		849E16101B2A2A3B0065EA10 /* RollingAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E160F1B2A2A3B0065EA10 /* RollingAudioViewController.m */; };
+		84B5599C1B278A1C0022805C /* AEFloatConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B559851B278A1C0022805C /* AEFloatConverter.m */; };
+		84B5599D1B278A1C0022805C /* EZAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B559871B278A1C0022805C /* EZAudio.m */; };
+		84B5599E1B278A1C0022805C /* EZAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B559891B278A1C0022805C /* EZAudioFile.m */; };
+		84B5599F1B278A1C0022805C /* EZAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5598B1B278A1C0022805C /* EZAudioPlayer.m */; };
+		84B559A01B278A1C0022805C /* EZAudioPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5598D1B278A1C0022805C /* EZAudioPlot.m */; };
+		84B559A11B278A1C0022805C /* EZAudioPlotGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5598F1B278A1C0022805C /* EZAudioPlotGL.m */; };
+		84B559A21B278A1C0022805C /* EZAudioPlotGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B559911B278A1C0022805C /* EZAudioPlotGLKViewController.m */; };
+		84B559A31B278A1C0022805C /* EZMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B559931B278A1C0022805C /* EZMicrophone.m */; };
+		84B559A41B278A1C0022805C /* EZOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B559951B278A1C0022805C /* EZOutput.m */; };
+		84B559A51B278A1C0022805C /* EZPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B559971B278A1C0022805C /* EZPlot.m */; };
+		84B559A61B278A1C0022805C /* EZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B559991B278A1C0022805C /* EZRecorder.m */; };
+		84B559A71B278A1C0022805C /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 84B5599A1B278A1C0022805C /* TPCircularBuffer.c */; };
+		84B559AB1B278A4D0022805C /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 84B559A91B278A4D0022805C /* CHANGELOG */; };
+		84B559AC1B278A4D0022805C /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 84B559AA1B278A4D0022805C /* VERSION */; };
+		84E24A6F1BD687F80067E779 /* Chest.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E24A6E1BD687F80067E779 /* Chest.png */; };
+		84E24A711BD6913B0067E779 /* blue circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E24A701BD6913B0067E779 /* blue circle.png */; };
+		84E24A741BD6A5470067E779 /* LocationSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E24A731BD6A5470067E779 /* LocationSelectionViewController.m */; };
+		84EBF7E11BF69604000AEC7C /* User-Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EBF7E01BF69604000AEC7C /* User-Group.png */; };
+		84EBF7E31BF696C3000AEC7C /* stethoscope-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EBF7E21BF696C3000AEC7C /* stethoscope-xxl.png */; };
+		84EBF7E61BFCD464000AEC7C /* LocationChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EBF7E51BFCD464000AEC7C /* LocationChangeViewController.m */; };
+		84F118081B67E0A10068F972 /* StethAidNavBarLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F118071B67E0A10068F972 /* StethAidNavBarLogo.png */; };
+		84FA1BF91BB30578008E837C /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA1BF81BB30578008E837C /* EAGLView.m */; };
+		84FA1BFF1BB330F5008E837C /* NewWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA1BFE1BB330F5008E837C /* NewWaveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +75,97 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8416ABAD1BF4FBB500FEC2B7 /* PatientDirectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientDirectoryViewController.h; sourceTree = "<group>"; };
+		8416ABAE1BF4FBB500FEC2B7 /* PatientDirectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientDirectoryViewController.m; sourceTree = "<group>"; };
+		842115511BD96E5C004B5836 /* PatientInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientInfoViewController.h; sourceTree = "<group>"; };
+		842115521BD96E5C004B5836 /* PatientInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientInfoViewController.m; sourceTree = "<group>"; };
+		8421159C1BDCA38D004B5836 /* WelcomeChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeChoiceViewController.h; sourceTree = "<group>"; };
+		8421159D1BDCA38D004B5836 /* WelcomeChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeChoiceViewController.m; sourceTree = "<group>"; };
+		8421159F1BDCA8D1004B5836 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		842115A01BDCA8D1004B5836 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		8462D6A41BED225000647952 /* PatientDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientDirectory.h; sourceTree = "<group>"; };
+		8462D6A51BED225000647952 /* PatientDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientDirectory.m; sourceTree = "<group>"; };
+		8462D6A61BED225000647952 /* PatientItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientItem.h; sourceTree = "<group>"; };
+		8462D6A71BED225000647952 /* PatientItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientItem.m; sourceTree = "<group>"; };
+		847C97E31B29CC9B00B65369 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		847C97E61B29FCCC00B65369 /* EZPlot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EZPlot-Prefix.pch"; sourceTree = "<group>"; };
 		849B5BF01B20A3AE009A0524 /* Stethaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stethaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849B5BF41B20A3AE009A0524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849B5BF51B20A3AE009A0524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		849B5BF71B20A3AE009A0524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		849B5BF81B20A3AE009A0524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		849B5BFA1B20A3AE009A0524 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		849B5BFB1B20A3AE009A0524 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		849B5BFE1B20A3AE009A0524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849B5C001B20A3AE009A0524 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		849B5C031B20A3AE009A0524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		849B5C091B20A3AE009A0524 /* StethaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StethaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849B5C0E1B20A3AE009A0524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849B5C0F1B20A3AE009A0524 /* StethaidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StethaidTests.m; sourceTree = "<group>"; };
+		849B5C191B20A452009A0524 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		849B5C1B1B20A463009A0524 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		849B5C1E1B20A4B5009A0524 /* heart_beat_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_beat_logo.png; sourceTree = "<group>"; };
+		849B5C1F1B20A4B5009A0524 /* heart_beat_logo76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_beat_logo76x76.png; sourceTree = "<group>"; };
+		849B5C201B20A4B5009A0524 /* heart_beat_logo120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_beat_logo120x120.png; sourceTree = "<group>"; };
+		849B5C211B20A4B5009A0524 /* heart_beat_logo152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_beat_logo152x152.png; sourceTree = "<group>"; };
+		849B5C221B20A4B5009A0524 /* heart_beat_logo180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_beat_logo180x180.png; sourceTree = "<group>"; };
+		849B5C231B20A4B5009A0524 /* PauseIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseIcon.png; sourceTree = "<group>"; };
+		849B5C241B20A4B5009A0524 /* PlayIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayIcon.png; sourceTree = "<group>"; };
+		849B5C251B20A4B5009A0524 /* RecordIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordIcon.png; sourceTree = "<group>"; };
+		849B5C261B20A4B5009A0524 /* RecordRed256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordRed256.png; sourceTree = "<group>"; };
+		849B5C271B20A4B5009A0524 /* Stethaid Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stethaid Logo.png"; sourceTree = "<group>"; };
+		849B5C281B20A4B5009A0524 /* StopRed256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StopRed256.png; sourceTree = "<group>"; };
+		849B5C341B20A6B0009A0524 /* FDWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDWaveformView.h; sourceTree = "<group>"; };
+		849B5C351B20A6B0009A0524 /* FDWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDWaveformView.m; sourceTree = "<group>"; };
+		849B5C361B20A6B0009A0524 /* HeartSoundItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartSoundItem.h; sourceTree = "<group>"; };
+		849B5C371B20A6B0009A0524 /* HeartSoundItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartSoundItem.m; sourceTree = "<group>"; };
+		849B5C381B20A6B0009A0524 /* HeartSoundList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartSoundList.h; sourceTree = "<group>"; };
+		849B5C391B20A6B0009A0524 /* HeartSoundList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartSoundList.m; sourceTree = "<group>"; };
+		849B5C3A1B20A6B0009A0524 /* HeartSoundListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartSoundListViewController.h; sourceTree = "<group>"; };
+		849B5C3B1B20A6B0009A0524 /* HeartSoundListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartSoundListViewController.m; sourceTree = "<group>"; };
+		849B5C401B20A6CF009A0524 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849B5C411B20A6CF009A0524 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849B5C431B20A770009A0524 /* IosAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IosAudioController.h; sourceTree = "<group>"; };
+		849B5C441B20A770009A0524 /* IosAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IosAudioController.m; sourceTree = "<group>"; };
+		849B5C461B20A78A009A0524 /* PlaybackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaybackViewController.h; sourceTree = "<group>"; };
+		849B5C471B20A78A009A0524 /* PlaybackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaybackViewController.m; sourceTree = "<group>"; };
+		849B5C481B20A78A009A0524 /* RecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordingViewController.h; sourceTree = "<group>"; };
+		849B5C491B20A78A009A0524 /* RecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordingViewController.m; sourceTree = "<group>"; };
+		849E160E1B2A2A3B0065EA10 /* RollingAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingAudioViewController.h; sourceTree = "<group>"; };
+		849E160F1B2A2A3B0065EA10 /* RollingAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingAudioViewController.m; sourceTree = "<group>"; };
+		84B559841B278A1C0022805C /* AEFloatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEFloatConverter.h; sourceTree = "<group>"; };
+		84B559851B278A1C0022805C /* AEFloatConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEFloatConverter.m; sourceTree = "<group>"; };
+		84B559861B278A1C0022805C /* EZAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudio.h; sourceTree = "<group>"; };
+		84B559871B278A1C0022805C /* EZAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudio.m; sourceTree = "<group>"; };
+		84B559881B278A1C0022805C /* EZAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioFile.h; sourceTree = "<group>"; };
+		84B559891B278A1C0022805C /* EZAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioFile.m; sourceTree = "<group>"; };
+		84B5598A1B278A1C0022805C /* EZAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlayer.h; sourceTree = "<group>"; };
+		84B5598B1B278A1C0022805C /* EZAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlayer.m; sourceTree = "<group>"; };
+		84B5598C1B278A1C0022805C /* EZAudioPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlot.h; sourceTree = "<group>"; };
+		84B5598D1B278A1C0022805C /* EZAudioPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlot.m; sourceTree = "<group>"; };
+		84B5598E1B278A1C0022805C /* EZAudioPlotGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlotGL.h; sourceTree = "<group>"; };
+		84B5598F1B278A1C0022805C /* EZAudioPlotGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlotGL.m; sourceTree = "<group>"; };
+		84B559901B278A1C0022805C /* EZAudioPlotGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAudioPlotGLKViewController.h; sourceTree = "<group>"; };
+		84B559911B278A1C0022805C /* EZAudioPlotGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAudioPlotGLKViewController.m; sourceTree = "<group>"; };
+		84B559921B278A1C0022805C /* EZMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZMicrophone.h; sourceTree = "<group>"; };
+		84B559931B278A1C0022805C /* EZMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZMicrophone.m; sourceTree = "<group>"; };
+		84B559941B278A1C0022805C /* EZOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZOutput.h; sourceTree = "<group>"; };
+		84B559951B278A1C0022805C /* EZOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZOutput.m; sourceTree = "<group>"; };
+		84B559961B278A1C0022805C /* EZPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPlot.h; sourceTree = "<group>"; };
+		84B559971B278A1C0022805C /* EZPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPlot.m; sourceTree = "<group>"; };
+		84B559981B278A1C0022805C /* EZRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRecorder.h; sourceTree = "<group>"; };
+		84B559991B278A1C0022805C /* EZRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRecorder.m; sourceTree = "<group>"; };
+		84B5599A1B278A1C0022805C /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		84B5599B1B278A1C0022805C /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		84B559A91B278A4D0022805C /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		84B559AA1B278A4D0022805C /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		84E24A6E1BD687F80067E779 /* Chest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chest.png; sourceTree = "<group>"; };
+		84E24A701BD6913B0067E779 /* blue circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue circle.png"; sourceTree = "<group>"; };
+		84E24A721BD6A5470067E779 /* LocationSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSelectionViewController.h; sourceTree = "<group>"; };
+		84E24A731BD6A5470067E779 /* LocationSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSelectionViewController.m; sourceTree = "<group>"; };
+		84EBF7E01BF69604000AEC7C /* User-Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User-Group.png"; sourceTree = "<group>"; };
+		84EBF7E21BF696C3000AEC7C /* stethoscope-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stethoscope-xxl.png"; sourceTree = "<group>"; };
+		84EBF7E41BFCD464000AEC7C /* LocationChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationChangeViewController.h; sourceTree = "<group>"; };
+		84EBF7E51BFCD464000AEC7C /* LocationChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationChangeViewController.m; sourceTree = "<group>"; };
+		84F118071B67E0A10068F972 /* StethAidNavBarLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StethAidNavBarLogo.png; sourceTree = "<group>"; };
+		84FA1BF71BB30578008E837C /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		84FA1BF81BB30578008E837C /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		84FA1BFD1BB330F5008E837C /* NewWaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewWaveViewController.h; path = ../NewWaveViewController.h; sourceTree = "<group>"; };
+		84FA1BFE1BB330F5008E837C /* NewWaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewWaveViewController.m; path = ../NewWaveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847C97E41B29CC9B00B65369 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +190,8 @@
 		849B5BE71B20A3AD009A0524 = {
 			isa = PBXGroup;
 			children = (
+				847C97E61B29FCCC00B65369 /* EZPlot-Prefix.pch */,
+				847C97E31B29CC9B00B65369 /* Foundation.framework */,
 				849B5BF21B20A3AE009A0524 /* Stethaid */,
 				849B5C0C1B20A3AE009A0524 /* StethaidTests */,
 				849B5BF11B20A3AE009A0524 /* Products */,
@@ -81,14 +210,45 @@
 		849B5BF21B20A3AE009A0524 /* Stethaid */ = {
 			isa = PBXGroup;
 			children = (
-				849B5BF71B20A3AE009A0524 /* AppDelegate.h */,
-				849B5BF81B20A3AE009A0524 /* AppDelegate.m */,
-				849B5BFA1B20A3AE009A0524 /* ViewController.h */,
-				849B5BFB1B20A3AE009A0524 /* ViewController.m */,
-				849B5BFD1B20A3AE009A0524 /* Main.storyboard */,
+				84B559831B2789F60022805C /* EZAudio */,
+				84B559A81B278A250022805C /* VERSION */,
+				849B5C401B20A6CF009A0524 /* AppDelegate.h */,
+				849B5C411B20A6CF009A0524 /* AppDelegate.m */,
+				849B5C361B20A6B0009A0524 /* HeartSoundItem.h */,
+				849B5C371B20A6B0009A0524 /* HeartSoundItem.m */,
+				8462D6A61BED225000647952 /* PatientItem.h */,
+				8462D6A71BED225000647952 /* PatientItem.m */,
+				8462D6A41BED225000647952 /* PatientDirectory.h */,
+				8462D6A51BED225000647952 /* PatientDirectory.m */,
+				8416ABAD1BF4FBB500FEC2B7 /* PatientDirectoryViewController.h */,
+				8416ABAE1BF4FBB500FEC2B7 /* PatientDirectoryViewController.m */,
+				842115511BD96E5C004B5836 /* PatientInfoViewController.h */,
+				842115521BD96E5C004B5836 /* PatientInfoViewController.m */,
+				849B5C381B20A6B0009A0524 /* HeartSoundList.h */,
+				849B5C391B20A6B0009A0524 /* HeartSoundList.m */,
+				849B5C3A1B20A6B0009A0524 /* HeartSoundListViewController.h */,
+				849B5C3B1B20A6B0009A0524 /* HeartSoundListViewController.m */,
+				849B5C461B20A78A009A0524 /* PlaybackViewController.h */,
+				849B5C471B20A78A009A0524 /* PlaybackViewController.m */,
+				84EBF7E41BFCD464000AEC7C /* LocationChangeViewController.h */,
+				84EBF7E51BFCD464000AEC7C /* LocationChangeViewController.m */,
+				849B5C341B20A6B0009A0524 /* FDWaveformView.h */,
+				849B5C351B20A6B0009A0524 /* FDWaveformView.m */,
+				849B5C191B20A452009A0524 /* Main.storyboard */,
+				8421159F1BDCA8D1004B5836 /* TutorialViewController.h */,
+				842115A01BDCA8D1004B5836 /* TutorialViewController.m */,
+				8421159C1BDCA38D004B5836 /* WelcomeChoiceViewController.h */,
+				8421159D1BDCA38D004B5836 /* WelcomeChoiceViewController.m */,
+				84E24A721BD6A5470067E779 /* LocationSelectionViewController.h */,
+				84E24A731BD6A5470067E779 /* LocationSelectionViewController.m */,
+				849E160E1B2A2A3B0065EA10 /* RollingAudioViewController.h */,
+				849E160F1B2A2A3B0065EA10 /* RollingAudioViewController.m */,
+				84FA1C001BB33D86008E837C /* OLD CLASSES */,
+				84FB25B01B6AC0F70061AA0B /* Monitor Feature */,
 				849B5C001B20A3AE009A0524 /* Images.xcassets */,
-				849B5C021B20A3AE009A0524 /* LaunchScreen.xib */,
+				849B5C1B1B20A463009A0524 /* LaunchScreen.xib */,
 				849B5BF31B20A3AE009A0524 /* Supporting Files */,
+				849B5C1D1B20A4A5009A0524 /* Images */,
 			);
 			path = Stethaid;
 			sourceTree = "<group>";
@@ -117,6 +277,91 @@
 				849B5C0E1B20A3AE009A0524 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849B5C1D1B20A4A5009A0524 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84EBF7E21BF696C3000AEC7C /* stethoscope-xxl.png */,
+				84EBF7E01BF69604000AEC7C /* User-Group.png */,
+				84E24A701BD6913B0067E779 /* blue circle.png */,
+				84E24A6E1BD687F80067E779 /* Chest.png */,
+				84F118071B67E0A10068F972 /* StethAidNavBarLogo.png */,
+				849B5C1E1B20A4B5009A0524 /* heart_beat_logo.png */,
+				849B5C1F1B20A4B5009A0524 /* heart_beat_logo76x76.png */,
+				849B5C201B20A4B5009A0524 /* heart_beat_logo120x120.png */,
+				849B5C211B20A4B5009A0524 /* heart_beat_logo152x152.png */,
+				849B5C221B20A4B5009A0524 /* heart_beat_logo180x180.png */,
+				849B5C231B20A4B5009A0524 /* PauseIcon.png */,
+				849B5C241B20A4B5009A0524 /* PlayIcon.png */,
+				849B5C251B20A4B5009A0524 /* RecordIcon.png */,
+				849B5C261B20A4B5009A0524 /* RecordRed256.png */,
+				849B5C271B20A4B5009A0524 /* Stethaid Logo.png */,
+				849B5C281B20A4B5009A0524 /* StopRed256.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		84B559831B2789F60022805C /* EZAudio */ = {
+			isa = PBXGroup;
+			children = (
+				84B559841B278A1C0022805C /* AEFloatConverter.h */,
+				84B559851B278A1C0022805C /* AEFloatConverter.m */,
+				84B559861B278A1C0022805C /* EZAudio.h */,
+				84B559871B278A1C0022805C /* EZAudio.m */,
+				84B559881B278A1C0022805C /* EZAudioFile.h */,
+				84B559891B278A1C0022805C /* EZAudioFile.m */,
+				84B5598A1B278A1C0022805C /* EZAudioPlayer.h */,
+				84B5598B1B278A1C0022805C /* EZAudioPlayer.m */,
+				84B5598C1B278A1C0022805C /* EZAudioPlot.h */,
+				84B5598D1B278A1C0022805C /* EZAudioPlot.m */,
+				84B5598E1B278A1C0022805C /* EZAudioPlotGL.h */,
+				84B5598F1B278A1C0022805C /* EZAudioPlotGL.m */,
+				84B559901B278A1C0022805C /* EZAudioPlotGLKViewController.h */,
+				84B559911B278A1C0022805C /* EZAudioPlotGLKViewController.m */,
+				84B559921B278A1C0022805C /* EZMicrophone.h */,
+				84B559931B278A1C0022805C /* EZMicrophone.m */,
+				84B559941B278A1C0022805C /* EZOutput.h */,
+				84B559951B278A1C0022805C /* EZOutput.m */,
+				84B559961B278A1C0022805C /* EZPlot.h */,
+				84B559971B278A1C0022805C /* EZPlot.m */,
+				84B559981B278A1C0022805C /* EZRecorder.h */,
+				84B559991B278A1C0022805C /* EZRecorder.m */,
+				84B5599A1B278A1C0022805C /* TPCircularBuffer.c */,
+				84B5599B1B278A1C0022805C /* TPCircularBuffer.h */,
+			);
+			name = EZAudio;
+			sourceTree = "<group>";
+		};
+		84B559A81B278A250022805C /* VERSION */ = {
+			isa = PBXGroup;
+			children = (
+				84B559A91B278A4D0022805C /* CHANGELOG */,
+				84B559AA1B278A4D0022805C /* VERSION */,
+			);
+			name = VERSION;
+			sourceTree = "<group>";
+		};
+		84FA1C001BB33D86008E837C /* OLD CLASSES */ = {
+			isa = PBXGroup;
+			children = (
+				849B5C481B20A78A009A0524 /* RecordingViewController.h */,
+				849B5C491B20A78A009A0524 /* RecordingViewController.m */,
+				84FA1BFD1BB330F5008E837C /* NewWaveViewController.h */,
+				84FA1BFE1BB330F5008E837C /* NewWaveViewController.m */,
+				84FA1BF71BB30578008E837C /* EAGLView.h */,
+				84FA1BF81BB30578008E837C /* EAGLView.m */,
+			);
+			name = "OLD CLASSES";
+			sourceTree = "<group>";
+		};
+		84FB25B01B6AC0F70061AA0B /* Monitor Feature */ = {
+			isa = PBXGroup;
+			children = (
+				849B5C431B20A770009A0524 /* IosAudioController.h */,
+				849B5C441B20A770009A0524 /* IosAudioController.m */,
+			);
+			name = "Monitor Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +413,7 @@
 				TargetAttributes = {
 					849B5BEF1B20A3AE009A0524 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2RAA9CGCD9;
 					};
 					849B5C081B20A3AE009A0524 = {
 						CreatedOnToolsVersion = 6.3;
@@ -199,9 +445,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849B5BFF1B20A3AE009A0524 /* Main.storyboard in Resources */,
-				849B5C041B20A3AE009A0524 /* LaunchScreen.xib in Resources */,
+				849B5C1C1B20A463009A0524 /* LaunchScreen.xib in Resources */,
+				849B5C2C1B20A4B5009A0524 /* heart_beat_logo152x152.png in Resources */,
+				849B5C291B20A4B5009A0524 /* heart_beat_logo.png in Resources */,
+				84E24A711BD6913B0067E779 /* blue circle.png in Resources */,
+				849B5C331B20A4B5009A0524 /* StopRed256.png in Resources */,
+				849B5C321B20A4B5009A0524 /* Stethaid Logo.png in Resources */,
+				84EBF7E31BF696C3000AEC7C /* stethoscope-xxl.png in Resources */,
+				849B5C2B1B20A4B5009A0524 /* heart_beat_logo120x120.png in Resources */,
+				849B5C2F1B20A4B5009A0524 /* PlayIcon.png in Resources */,
+				84E24A6F1BD687F80067E779 /* Chest.png in Resources */,
+				849B5C2E1B20A4B5009A0524 /* PauseIcon.png in Resources */,
+				849B5C2A1B20A4B5009A0524 /* heart_beat_logo76x76.png in Resources */,
 				849B5C011B20A3AE009A0524 /* Images.xcassets in Resources */,
+				849B5C301B20A4B5009A0524 /* RecordIcon.png in Resources */,
+				849B5C2D1B20A4B5009A0524 /* heart_beat_logo180x180.png in Resources */,
+				849B5C311B20A4B5009A0524 /* RecordRed256.png in Resources */,
+				84B559AC1B278A4D0022805C /* VERSION in Resources */,
+				849B5C1A1B20A452009A0524 /* Main.storyboard in Resources */,
+				84B559AB1B278A4D0022805C /* CHANGELOG in Resources */,
+				84EBF7E11BF69604000AEC7C /* User-Group.png in Resources */,
+				84F118081B67E0A10068F972 /* StethAidNavBarLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +483,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849B5BFC1B20A3AE009A0524 /* ViewController.m in Sources */,
-				849B5BF91B20A3AE009A0524 /* AppDelegate.m in Sources */,
+				84B559A71B278A1C0022805C /* TPCircularBuffer.c in Sources */,
+				849B5C3F1B20A6B0009A0524 /* HeartSoundListViewController.m in Sources */,
+				84B559A41B278A1C0022805C /* EZOutput.m in Sources */,
+				849B5C4A1B20A78A009A0524 /* PlaybackViewController.m in Sources */,
+				84E24A741BD6A5470067E779 /* LocationSelectionViewController.m in Sources */,
+				849B5C3E1B20A6B0009A0524 /* HeartSoundList.m in Sources */,
+				849B5C451B20A770009A0524 /* IosAudioController.m in Sources */,
+				849B5C421B20A6CF009A0524 /* AppDelegate.m in Sources */,
+				842115531BD96E5C004B5836 /* PatientInfoViewController.m in Sources */,
+				84FA1BF91BB30578008E837C /* EAGLView.m in Sources */,
+				84B559A11B278A1C0022805C /* EZAudioPlotGL.m in Sources */,
+				84B559A21B278A1C0022805C /* EZAudioPlotGLKViewController.m in Sources */,
+				84B5599C1B278A1C0022805C /* AEFloatConverter.m in Sources */,
 				849B5BF61B20A3AE009A0524 /* main.m in Sources */,
+				842115A11BDCA8D1004B5836 /* TutorialViewController.m in Sources */,
+				84B5599D1B278A1C0022805C /* EZAudio.m in Sources */,
+				849B5C3D1B20A6B0009A0524 /* HeartSoundItem.m in Sources */,
+				84FA1BFF1BB330F5008E837C /* NewWaveViewController.m in Sources */,
+				84B5599E1B278A1C0022805C /* EZAudioFile.m in Sources */,
+				8462D6A81BED225000647952 /* PatientDirectory.m in Sources */,
+				84B559A31B278A1C0022805C /* EZMicrophone.m in Sources */,
+				84B559A01B278A1C0022805C /* EZAudioPlot.m in Sources */,
+				849B5C3C1B20A6B0009A0524 /* FDWaveformView.m in Sources */,
+				84EBF7E61BFCD464000AEC7C /* LocationChangeViewController.m in Sources */,
+				84B559A61B278A1C0022805C /* EZRecorder.m in Sources */,
+				84B5599F1B278A1C0022805C /* EZAudioPlayer.m in Sources */,
+				849E16101B2A2A3B0065EA10 /* RollingAudioViewController.m in Sources */,
+				8416ABAF1BF4FBB500FEC2B7 /* PatientDirectoryViewController.m in Sources */,
+				8462D6A91BED225000647952 /* PatientItem.m in Sources */,
+				84B559A51B278A1C0022805C /* EZPlot.m in Sources */,
+				849B5C4B1B20A78A009A0524 /* RecordingViewController.m in Sources */,
+				8421159E1BDCA38D004B5836 /* WelcomeChoiceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +535,6 @@
 			targetProxy = 849B5C0A1B20A3AE009A0524 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		849B5BFD1B20A3AE009A0524 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				849B5BFE1B20A3AE009A0524 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		849B5C021B20A3AE009A0524 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				849B5C031B20A3AE009A0524 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		849B5C111B20A3AE009A0524 /* Debug */ = {
@@ -349,8 +623,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZPlot-Prefix.pch";
 				INFOPLIST_FILE = Stethaid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,8 +638,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZPlot-Prefix.pch";
 				INFOPLIST_FILE = Stethaid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +702,7 @@
 				849B5C151B20A3AE009A0524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849B5C161B20A3AE009A0524 /* Build configuration list for PBXNativeTarget "StethaidTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +711,7 @@
 				849B5C181B20A3AE009A0524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
